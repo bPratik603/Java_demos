@@ -1,0 +1,16 @@
+package StringTokenizer;
+
+import java.util.StringTokenizer;
+
+public class Prog1 {
+    public static void main(String[] args) {
+        
+        String str = "Core2Web";
+
+        StringTokenizer st = new StringTokenizer(str,"");
+
+        while(st.hasMoreTokens()){
+            System.out.println(st.nextToken()+",");
+        }
+    }
+}
