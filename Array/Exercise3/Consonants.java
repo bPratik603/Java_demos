@@ -1,6 +1,6 @@
 package Exercise3;
 
-import while_For.factorial;
+import while_For.Exercise1.factorial;
 
 public class Consonants {
     
